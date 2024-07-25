@@ -1,0 +1,67 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 350px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.card-header img {
+    width: 100%; /* Ensures the image fits the width of the card */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h2 {
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 50px 10;
+    text-align: Left;
+}
+
+.contact-info li {
+    margin:10px 0;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #000;
+    display: inline-flex;
+    align-items: center;
+}
+
+.contact-info a img {
+    width: 40px; /* Set a fixed width */
+    height: 40px; /* Set a fixed height */
+    margin-right: 10px; /* Space between image and text */
+    background-color: white; /* Set the background color to white */
+    padding: 5px; /* Optional: add padding for better appearance */
+    border-radius: 5px; /* Optional: add rounded corners */
+}
+
+.save-contact {
+    background-color: Black; /* Changed background color */
+    border: none;
+    color: white;
+    padding: 20px; /* Adjusted padding */
+    text-align: center;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px; /* Adjusted font size */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.save-contact:hover {
+    background-color: darkred;
+}
